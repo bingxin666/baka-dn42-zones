@@ -1,0 +1,11 @@
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.4.2.0.0.8.e.0.1.8.6.3.f.d.d.f.ip6.arpa. IN  SOA  anycast.baka.dn42. bingxin.baka.pub. 6 7200 3600 1209600 3600
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.5.2.2.0.0.8.e.0.1.8.6.3.f.d.d.f.ip6.arpa. IN  PTR  alice.hkg.global.node.baka.dn42.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.6.2.2.0.0.8.e.0.1.8.6.3.f.d.d.f.ip6.arpa. IN  PTR  bob.jpn.global.node.baka.dn42.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.7.2.2.0.0.8.e.0.1.8.6.3.f.d.d.f.ip6.arpa. IN  PTR  carol.sgp.global.node.baka.dn42.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.9.2.2.0.0.8.e.0.1.8.6.3.f.d.d.f.ip6.arpa. IN  PTR  dave.usa.global.node.baka.dn42.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.2.0.0.8.e.0.1.8.6.3.f.d.d.f.ip6.arpa. IN  PTR  eve.usa.global.node.baka.dn42.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.3.2.0.0.8.e.0.1.8.6.3.f.d.d.f.ip6.arpa. IN  PTR  zoe.chengdu.china.node.baka.dn42.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.3.2.0.0.8.e.0.1.8.6.3.f.d.d.f.ip6.arpa. IN  PTR  walter.chengdu.china.node.baka.dn42.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.4.2.0.0.8.e.0.1.8.6.3.f.d.d.f.ip6.arpa. IN  PTR  anycast.baka.dn42.

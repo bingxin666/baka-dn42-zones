@@ -1,0 +1,28 @@
+$TTL 3600
+$ORIGIN baka.dn42.
+@           IN  SOA  anycast.baka.dn42. bingxin.baka.pub. (
+                     2025112901 ; Serial
+                     4H         ; Refresh
+                     1H         ; Retry
+                     7D         ; Expire
+                     4H )       ; Negative Cache TTL
+
+@              IN  NS   anycast
+anycast        IN  A    172.20.154.244
+anycast        IN  AAAA fddf:3681:e80:244::1
+alice.hkg.global.node        IN  A    172.20.154.225
+alice.hkg.global.node        IN  AAAA fddf:3681:e80:225::1
+bob.jpn.global.node          IN  A    172.20.154.226
+bob.jpn.global.node          IN  AAAA fddf:3681:e80:226::1
+carol.sgp.global.node        IN  A    172.20.154.227
+carol.sgp.global.node        IN  AAAA fddf:3681:e80:227::1
+dave.usa.global.node         IN  A    172.20.154.229
+dave.usa.global.node         IN  AAAA fddf:3681:e80:229::1
+eve.usa.global.node          IN  A    172.20.154.230
+eve.usa.global.node          IN  AAAA fddf:3681:e80:230::1
+zoe.chengdu.china.node       IN  A    172.20.154.233
+zoe.chengdu.china.node       IN  AAAA fddf:3681:e80:233::1
+walter.chengdu.china.node    IN  A    172.20.154.234
+walter.chengdu.china.node    IN  AAAA fddf:3681:e80:234::1
+
+radio          IN  A    172.20.154.230

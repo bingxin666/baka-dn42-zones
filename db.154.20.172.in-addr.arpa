@@ -1,0 +1,11 @@
+244.224/27.154.20.172.in-addr.arpa. IN  SOA  anycast.baka.dn42. bingxin.baka.pub 6 7200 3600 1209600 3600
+
+225.224/27.154.20.172.in-addr.arpa. IN  PTR  alice.hkg.global.node.baka.dn42.
+226.224/27.154.20.172.in-addr.arpa. IN  PTR  bob.jpn.global.node.baka.dn42.
+227.224/27.154.20.172.in-addr.arpa. IN  PTR  carol.sgp.global.node.baka.dn42.
+229.224/27.154.20.172.in-addr.arpa. IN  PTR  dave.usa.global.node.baka.dn42.
+230.224/27.154.20.172.in-addr.arpa. IN  PTR  eve.usa.global.node.baka.dn42.
+233.224/27.154.20.172.in-addr.arpa. IN  PTR  zoe.chengdu.china.node.baka.dn42.
+234.224/27.154.20.172.in-addr.arpa. IN  PTR  walter.chengdu.china.node.baka.dn42.
+
+244.224/27.154.20.172.in-addr.arpa. IN  PTR  anycast.baka.dn42.
