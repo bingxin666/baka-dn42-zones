@@ -1,5 +1,5 @@
 $TTL 3600
-$ORIGIN 244.224/27.154.20.172.in-addr.arpa.
+$ORIGIN 224/27.154.20.172.in-addr.arpa.
 @           IN  SOA  anycast.baka.dn42. bingxin.baka.pub. (
                      2025112901 ; Serial
                      4H         ; Refresh
