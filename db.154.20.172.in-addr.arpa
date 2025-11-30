@@ -1,4 +1,3 @@
-$TTL 3600
 244.224/27.154.20.172.in-addr.arpa.  IN  SOA  anycast.baka.dn42. bingxin.baka.pub 6 7200 3600 1209600 3600
 
 244.224/27.154.20.172.in-addr.arpa.  IN  NS   anycast.baka.dn42.
