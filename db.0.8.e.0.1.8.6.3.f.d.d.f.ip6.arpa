@@ -7,7 +7,7 @@ $ORIGIN 0.8.e.0.1.8.6.3.f.d.d.f.ip6.arpa.
                      7D         ; Expire
                      4H )       ; Negative Cache TTL
 
-@                                       IN  NS   anycast.baka.dn42.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.4.2.0 IN  NS   anycast.baka.dn42.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.4.2.0 IN  PTR  anycast.baka.dn42.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.5.2.2.0 IN  PTR  hkg.alice.global.node.baka.dn42.

@@ -1,5 +1,5 @@
 $TTL 3600
-$ORIGIN 224/27.154.20.172.in-addr.arpa.
+$ORIGIN 154.20.172.in-addr.arpa.
 @           IN  SOA  anycast.baka.dn42. bingxin.baka.pub. (
                      2025112901 ; Serial
                      4H         ; Refresh
@@ -7,28 +7,28 @@ $ORIGIN 224/27.154.20.172.in-addr.arpa.
                      7D         ; Expire
                      4H )       ; Negative Cache TTL
 
-@           IN  NS   anycast.baka.dn42.
-244         IN  PTR  anycast.baka.dn42.
+244/27      IN  NS   anycast.baka.dn42.
+244/27      IN  PTR  anycast.baka.dn42.
 
-225         IN  PTR  hkg.alice.global.node.baka.dn42.
-226         IN  PTR  jpn.bob.global.node.baka.dn42.
-227         IN  PTR  sgp.charlie.global.node.baka.dn42.
-228         IN  PTR  gbr.dave.global.node.baka.dn42.
-229         IN  PTR  usa.eve.global.node.baka.dn42.
-230         IN  PTR  usa.isaac.global.node.baka.dn42.
-231         IN  PTR  fra.ivan.global.node.baka.dn42.
-232         IN  PTR  deu.justin.global.node.baka.dn42.
+225/27      IN  PTR  hkg.alice.global.node.baka.dn42.
+226/27      IN  PTR  jpn.bob.global.node.baka.dn42.
+227/27      IN  PTR  sgp.charlie.global.node.baka.dn42.
+228/27      IN  PTR  gbr.dave.global.node.baka.dn42.
+229/27      IN  PTR  usa.eve.global.node.baka.dn42.
+230/27      IN  PTR  usa.isaac.global.node.baka.dn42.
+231/27      IN  PTR  fra.ivan.global.node.baka.dn42.
+232/27      IN  PTR  deu.justin.global.node.baka.dn42.
 
-233         IN  PTR  chengdu.zoe.china.node.baka.dn42.
-234         IN  PTR  chengdu.walter.china.node.baka.dn42.
-235         IN  PTR  shanghai.trudy.china.node.baka.dn42.
-236         IN  PTR  guangzhou.trent.china.node.baka.dn42
+233/27      IN  PTR  chengdu.zoe.china.node.baka.dn42.
+234/27      IN  PTR  chengdu.walter.china.node.baka.dn42.
+235/27      IN  PTR  shanghai.trudy.china.node.baka.dn42.
+236/27      IN  PTR  guangzhou.trent.china.node.baka.dn42.
 
-248         IN  PTR  kiana.customers.baka.dn42.
-249         IN  PTR  bronya.customers.baka.dn42.
-250         IN  PTR  mei.customers.baka.dn42.
-251         IN  PTR  dreamseeker.customers.baka.dn42.
-252         IN  PTR  coralie.customers.baka.dn42.
-253         IN  PTR  helia.customers.baka.dn42.
-254         IN  PTR  senadina.customers.baka.dn42.
-255         IN  PTR  elysia.customers.baka.dn42.
+248/27      IN  PTR  kiana.customers.baka.dn42.
+249/27      IN  PTR  bronya.customers.baka.dn42.
+250/27      IN  PTR  mei.customers.baka.dn42.
+251/27      IN  PTR  dreamseeker.customers.baka.dn42.
+252/27      IN  PTR  coralie.customers.baka.dn42.
+253/27      IN  PTR  helia.customers.baka.dn42.
+254/27      IN  PTR  senadina.customers.baka.dn42.
+255/27      IN  PTR  elysia.customers.baka.dn42.
