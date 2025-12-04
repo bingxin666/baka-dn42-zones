@@ -6,4 +6,6 @@ $TTL 300
                      7D         ; Expire
                      4H )       ; Negative Cache TTL
 
+
 @              IN  NS   anycast.baka.dn42.
+dns-test       IN  CNAME anycast.baka.dn42.
