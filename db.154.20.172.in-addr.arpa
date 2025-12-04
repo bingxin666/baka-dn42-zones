@@ -1,4 +1,4 @@
-244.224/27.154.20.172.in-addr.arpa.  IN  SOA  anycast.baka.dn42. bingxin.baka.pub 6 7200 3600 1209600 3600
+224/27.154.20.172.in-addr.arpa.      IN  SOA  anycast.baka.dn42. bingxin.baka.pub 6 7200 3600 1209600 3600
 
 244.224/27.154.20.172.in-addr.arpa.  IN  PTR  anycast.baka.dn42.
 
