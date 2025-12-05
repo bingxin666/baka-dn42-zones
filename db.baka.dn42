@@ -1,7 +1,7 @@
-$TTL 3600
+$TTL 300
 $ORIGIN baka.dn42.
 @           IN  SOA  anycast.baka.dn42. bingxin.baka.pub. (
-                     2025112901 ; Serial
+                     2025120601 ; Serial
                      4H         ; Refresh
                      1H         ; Retry
                      7D         ; Expire
@@ -55,3 +55,5 @@ elysia.customers             IN  A    172.20.154.255
 elysia.customers             IN  AAAA fddf:3681:e80:255::1
 
 radio          IN  A    172.20.154.230
+@              IN  A    172.20.154.227
+@              IN  AAAA fddf:3681:e80:227::1
