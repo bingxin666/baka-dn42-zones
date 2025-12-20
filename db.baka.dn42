@@ -9,7 +9,7 @@ $ORIGIN baka.dn42.
 
 @              IN  NS   anycast
 anycast        IN  A    172.20.154.244
-anycast        IN  AAAA fddf:3681:e80:244::1
+anycast        IN  AAAA fddf:3681:e80:e80::1
 
 hkg.alice.global.node        IN  A    172.20.154.225
 hkg.alice.global.node        IN  AAAA fddf:3681:e80:225::1
