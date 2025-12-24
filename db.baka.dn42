@@ -1,7 +1,7 @@
 $TTL 300
 $ORIGIN baka.dn42.
 @           IN  SOA  anycast.baka.dn42. bingxin.baka.pub. (
-                     2025122101 ; Serial
+                     2025122501 ; Serial
                      4H         ; Refresh
                      1H         ; Retry
                      7D         ; Expire
@@ -28,8 +28,8 @@ fra.ivan.global.node         IN  AAAA fddf:3681:e80:231::1
 deu.justin.global.node       IN  A    172.20.154.232
 deu.justin.global.node       IN  AAAA fddf:3681:e80:232::1
 
-chengdu.zoe.china.node       IN  A    172.20.154.233
-chengdu.zoe.china.node       IN  AAAA fddf:3681:e80:233::1
+guangzhou.zoe.china.node       IN  A    172.20.154.233
+guangzhou.zoe.china.node       IN  AAAA fddf:3681:e80:233::1
 chengdu.walter.china.node    IN  A    172.20.154.234
 chengdu.walter.china.node    IN  AAAA fddf:3681:e80:234::1
 shanghai.trudy.china.node    IN  A    172.20.154.235
