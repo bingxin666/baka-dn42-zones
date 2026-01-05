@@ -1,8 +1,8 @@
 $TTL 300
 $ORIGIN baka.dn42.
 @           IN  SOA  anycast.baka.dn42. bingxin.baka.pub. (
-                     2025122501 ; Serial
-                     4H         ; Refresh
+                     2026010501 ; Serial
+                     1H         ; Refresh
                      1H         ; Retry
                      7D         ; Expire
                      4H )       ; Negative Cache TTL
