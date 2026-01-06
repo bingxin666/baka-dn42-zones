@@ -56,6 +56,10 @@ elysia.customers             IN  AAAA fddf:3681:e80:255::1
 
 radio          IN  A    172.20.154.230
 rpki           IN  A    172.20.154.225
+search         IN  A    172.20.154.225
+search         IN  AAAA fddf:3681:e80:225::1
+speedtest      IN  A    172.20.154.225
+speedtest      IN  AAAA fddf:3681:e80:225::1
 
 @              IN  A    172.20.154.227
 @              IN  AAAA fddf:3681:e80:227::1
