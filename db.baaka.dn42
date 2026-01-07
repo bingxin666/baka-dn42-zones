@@ -1,0 +1,13 @@
+$TTL 300
+@           IN  SOA  anycast.baka.dn42. bingxin.baka.pub. (
+                     2025010701 ; Serial
+                     4H         ; Refresh
+                     1H         ; Retry
+                     7D         ; Expire
+                     4H )       ; Negative Cache TTL
+
+@              IN  NS   anycast.baka.dn42.
+@              IN  A    172.20.154.225
+@              IN  AAAA fddf:3681:e80:225::1
+www            IN  A    172.20.154.225
+www            IN  AAAA fddf:3681:e80:225::1
