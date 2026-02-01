@@ -55,6 +55,7 @@ elysia.customers             IN  A    172.20.154.255
 elysia.customers             IN  AAAA fddf:3681:e80:255::1
 
 radio          IN  A    172.20.154.230
+radio          IN  AAAA fddf:3681:e80:230::1
 rpki           IN  A    172.20.154.225
 yacy           IN  A    172.20.154.225
 yacy           IN  AAAA fddf:3681:e80:225::1
