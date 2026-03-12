@@ -10,3 +10,5 @@ $TTL 300
 @              IN  NS   anycast.baka.dn42.
 dns-test       IN  A    172.20.154.244
 
+mail           IN  A    172.20.154.230
+mail           IN  AAAA fddf:3681:e80:230::1
