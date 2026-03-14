@@ -24,9 +24,8 @@ usa.eve.global.node          IN  AAAA fddf:3681:e80:229::1
 usa.isaac.global.node        IN  A    172.20.154.230
 usa.isaac.global.node        IN  AAAA fddf:3681:e80:230::1
 fra.ivan.global.node         IN  A    172.20.154.231
-fra.ivan.global.node         IN  AAAA fddf:3681:e80:231::1
-deu.justin.global.node       IN  A    172.20.154.232
-deu.justin.global.node       IN  AAAA fddf:3681:e80:232::1
+aws.justin.global.node       IN  A    172.20.154.232
+aws.justin.global.node       IN  AAAA fddf:3681:e80:232::1
 
 guangzhou.zoe.china.node       IN  A    172.20.154.233
 guangzhou.zoe.china.node       IN  AAAA fddf:3681:e80:233::1
