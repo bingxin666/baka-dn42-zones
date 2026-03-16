@@ -10,24 +10,15 @@ $TTL 300
 @              IN  NS   anycast.baka.dn42.
 dns-test       IN  A    172.20.154.244
 
+
+@               IN  A    172.20.154.230
+@               IN  AAAA fddf:3681:e80:230::1
 mail           IN  A    172.20.154.230
 mail           IN  AAAA fddf:3681:e80:230::1
-
-@                  IN MX    10 mail.x.dn42.
-202603e._domainkey IN TXT   "v=DKIM1; k=ed25519; h=sha256; p=j+cGLVjyOBm30OLcrZiCqiQmY1qzf0bihlPBvgxO5sA="
-202603r._domainkey IN TXT   "v=DKIM1; k=rsa; h=sha256; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtKhi5vOEohM2cKnTloYU6lOeMlkUf222AF1UhDB8N3K4g93rQ37xgCTB4HtLX+x7KXFNBOurjfRyYrdk65mPqZ9Rxy7d5rZrEe1dbuBYhyxxF5c2uEz3dF+7LWlr/yhnT1mCdQfwmTrvMXQl2lNKLNgnYn34Mt/ia5vjBDca4P+H9e0XaekmA8T" "CiVCJ/P6/1YEsT2yU3N2gd2M48+7zI4+2DpBoUA2iiNIRmdEUHt0jPDuxYjoQhJ0jmy5Q4E0DGNoXeyBMFdK6BCQpcj3DyLrQANnFIeWhh9SWCYj2qvsNbHDuGBiz0Qk0GuQRAkGALUrRCEkmQVV2qlzbdev6ZwIDAQAB"
-mail               IN TXT   "v=spf1 a ra=postmaster -all"
-@                  IN TXT   "v=spf1 mx ra=postmaster -all"
-_jmap._tcp         IN SRV   0 1 443 mail.x.dn42.
-_caldavs._tcp      IN SRV   0 1 443 mail.x.dn42.
-_carddavs._tcp     IN SRV   0 1 443 mail.x.dn42.
-_imaps._tcp        IN SRV   0 1 993 mail.x.dn42.
-_imap._tcp         IN SRV   0 1 143 mail.x.dn42.
-_pop3s._tcp        IN SRV   0 1 995 mail.x.dn42.
-_pop3._tcp         IN SRV   0 1 110 mail.x.dn42.
-_submissions._tcp  IN SRV   0 1 465 mail.x.dn42.
-_submission._tcp   IN SRV   0 1 587 mail.x.dn42.
-autoconfig         IN CNAME mail.x.dn42.
-autodiscover       IN CNAME mail.x.dn42.
-_dmarc             IN TXT   "v=DMARC1; p=reject; rua=mailto:postmaster@x.dn42; ruf=mailto:postmaster@x.dn42"
-_smtp._tls         IN TXT   "v=TLSRPTv1; rua=mailto:postmaster@x.dn42"
+@               IN  MX     mail.x.dn42
+mail           IN  TXT    v=spf1 mx ~all
+@               IN  TXT    v=spf1 mx ~all
+default._domainkey.x.dn42    IN  TXT    v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxiiw0gXRbN7rjbUjs8qnYd57MwBQVUy8Iq6SoE5qxET536nlfXjV8AQu1TyvwgqazbDph2YTgnKfI9l1lNbXPlgJOBtVx6o3/9aLb6N5rEjk/vsOrdYrGfW1GBDDno+26twqUGpjDVibcrSSzJ2P1jnzqwwMZwKZ1xIVMPCY8IKO7gcl/l6lD6TGwEsBq9enOkZrH1Hg8AM1aZ4NBGgrI73JAf00k6tRv8YzrbFIwARp+5SBtM1tTZJh93GF8S5a039MjRapBtblcleZbUdyIaULTr5+NIHZkZhhbUtjFTJitHTlNfzaHNB8z3VzLzXIRDpckSgdCO7cHbQQEBZsQQIDAQAB
+_dmarc      IN  TXT    v=DMARC1; p=quarantine; ruf=mailto:bingxin@x.dn42
+_mta-sts    IN  TXT    v=STSv1; id=1
+_smtp._tls  IN  TXT    v=TLSRPTv1;rua=mailto:binxgin@x.dn42
