@@ -1,13 +1,15 @@
 $TTL 300
-$ORIGIN 224/27.154.20.172.in-addr.arpa.
+$ORIGIN 154.20.172.in-addr.arpa.
 
 @ IN SOA anycast.baka.dn42. bingxin.baka.pub. (
-    2026031801 ; Serial
+    2026031802 ; Serial (记得每次更新增加一下序号)
     7200       ; Refresh
     3600       ; Retry
     1209600    ; Expire
     3600       ; Negative Cache TTL
 )
+
+$ORIGIN 224/27.154.20.172.in-addr.arpa.
 
 ; ---- infrastructure ----
 244 IN PTR anycast.baka.dn42.
