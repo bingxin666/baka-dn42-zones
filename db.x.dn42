@@ -13,9 +13,9 @@ dns-test       IN  A    172.20.154.244
 
 @               IN  A    172.20.154.230
 @               IN  AAAA fddf:3681:e80:230::1
-mail           IN  A    172.20.154.230
-mail           IN  AAAA fddf:3681:e80:230::1
-@               IN  MX     mail.x.dn42
+@               IN  MX 10 mail.x.dn42.
+mail            IN  A    172.20.154.230
+mail            IN  AAAA fddf:3681:e80:230::1
 mail           IN  TXT    v=spf1 mx ~all
 @               IN  TXT    v=spf1 mx ~all
 default._domainkey.x.dn42    IN  TXT    v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxiiw0gXRbN7rjbUjs8qnYd57MwBQVUy8Iq6SoE5qxET536nlfXjV8AQu1TyvwgqazbDph2YTgnKfI9l1lNbXPlgJOBtVx6o3/9aLb6N5rEjk/vsOrdYrGfW1GBDDno+26twqUGpjDVibcrSSzJ2P1jnzqwwMZwKZ1xIVMPCY8IKO7gcl/l6lD6TGwEsBq9enOkZrH1Hg8AM1aZ4NBGgrI73JAf00k6tRv8YzrbFIwARp+5SBtM1tTZJh93GF8S5a039MjRapBtblcleZbUdyIaULTr5+NIHZkZhhbUtjFTJitHTlNfzaHNB8z3VzLzXIRDpckSgdCO7cHbQQEBZsQQIDAQAB
