@@ -1,1 +1,14 @@
-4.f.d.d.4.d.d.d.b.6.d.f.ip6                                         IN  SOA  anycast.baka.dn42. xiexilin.com. 6 7200 3600 1209600 3600
+; ================================================================
+; Zone: fd6b:ddd4:ddf4::/48 反向解析
+; 对应 4.f.d.d.4.d.d.d.b.6.d.f.ip6.arpa
+; ================================================================
+$TTL 300
+$ORIGIN 4.f.d.d.4.d.d.d.b.6.d.f.ip6.arpa.
+
+@ IN SOA anycast.baka.dn42. xiexilin.com. (
+    2026032101 ; Serial
+    7200       ; Refresh
+    3600       ; Retry
+    1209600    ; Expire
+    3600       ; Negative Cache TTL
+)
