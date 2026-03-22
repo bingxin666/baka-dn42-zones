@@ -16,9 +16,7 @@ dns-test       IN  A    172.20.154.244
 @               IN  MX 10 mail.x.dn42.
 mail            IN  A    172.20.154.230
 mail            IN  AAAA fddf:3681:e80:230::1
-mail           IN  TXT    v=spf1 mx ~all
+mail            IN  TXT    v=spf1 mx ~all
 @               IN  TXT    v=spf1 mx ~all
-default._domainkey.x.dn42    IN  TXT    v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxiiw0gXRbN7rjbUjs8qnYd57MwBQVUy8Iq6SoE5qxET536nlfXjV8AQu1TyvwgqazbDph2YTgnKfI9l1lNbXPlgJOBtVx6o3/9aLb6N5rEjk/vsOrdYrGfW1GBDDno+26twqUGpjDVibcrSSzJ2P1jnzqwwMZwKZ1xIVMPCY8IKO7gcl/l6lD6TGwEsBq9enOkZrH1Hg8AM1aZ4NBGgrI73JAf00k6tRv8YzrbFIwARp+5SBtM1tTZJh93GF8S5a039MjRapBtblcleZbUdyIaULTr5+NIHZkZhhbUtjFTJitHTlNfzaHNB8z3VzLzXIRDpckSgdCO7cHbQQEBZsQQIDAQAB
-_dmarc      IN  TXT    v=DMARC1; p=quarantine; ruf=mailto:bingxin@x.dn42
-_mta-sts    IN  TXT    v=STSv1; id=1
-_smtp._tls  IN  TXT    v=TLSRPTv1;rua=mailto:bingxin@x.dn42
+s20260322509._domainkey.x.dn42. IN TXT "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsqwEn8h7/VVHu9FOsi+hi2r5K4mncWXVBp+zNN9UFVYt+G29NTx0+V01xPB4KT0FtDBIEjydT1nGklZ1xQenTG5NzXA08qpbT3c8lDEBIukrT3+U7OYtIrQiF5JjigUbtNhzYyoPEoLUcXBU/gK0Vz+T0dp0lMMfRfH5xA6Ou9cW+kmPz/zlHGnI4WzyOrDmh/+5g7lJG8cPLaDX3Y9UEdwB930i53Rm+90PUZiNlRBWKjapIGHdGERkdtGTML6fAtt2pli8C3CoED/ZPEad+iWj6YTx45QjzddqPEO9Qj06XpXlDYQvdjEyCm2LzwaLyAo/knE2E70E2nwyKjMTpQIDAQAB"_dmarc      IN  TXT    v=DMARC1; p=quarantine; ruf=mailto:bingxin@x.dn42
+_dmarc          IN  TXT    v=DMARC1; p=none; rua=mailto:dmarc@x.dn42
