@@ -1,7 +1,7 @@
 $TTL 300
 $ORIGIN baka.dn42.
 @           IN  SOA  anycast.baka.dn42. bingxin.baka.pub. (
-                     2026010601 ; Serial
+                     2026032601 ; Serial
                      1H         ; Refresh
                      1H         ; Retry
                      7D         ; Expire
