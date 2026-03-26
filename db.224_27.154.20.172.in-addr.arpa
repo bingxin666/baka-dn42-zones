@@ -18,8 +18,8 @@ $ORIGIN 224/27.154.20.172.in-addr.arpa.
 227 IN PTR sgp.charlie.global.node.baka.dn42.
 228 IN PTR gbr.dave.global.node.baka.dn42.
 229 IN PTR usa.eve.global.node.baka.dn42.
-230 IN PTR mail.x.dn42.
-231 IN PTR fra.ivan.global.node.baka.dn42.
+230 IN PTR aws.justin.global.node.baka.dn42.
+231 IN PTR mail.x.dn42.
 232 IN PTR aws.justin.global.node.baka.dn42.
 
 ; ---- china nodes ----

@@ -23,7 +23,6 @@ usa.eve.global.node          IN  A    172.20.154.229
 usa.eve.global.node          IN  AAAA fddf:3681:e80:229::1
 usa.isaac.global.node        IN  A    172.20.154.230
 usa.isaac.global.node        IN  AAAA fddf:3681:e80:230::1
-fra.ivan.global.node         IN  A    172.20.154.231
 aws.justin.global.node       IN  A    172.20.154.232
 aws.justin.global.node       IN  AAAA fddf:3681:e80:232::1
 

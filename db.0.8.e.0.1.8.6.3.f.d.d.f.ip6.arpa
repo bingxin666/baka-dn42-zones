@@ -29,9 +29,9 @@ $ORIGIN 0.8.e.0.1.8.6.3.f.d.d.f.ip6.arpa.
 ; fddf:3681:e80:229::1
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.9.2.2.0 IN PTR usa.eve.global.node.baka.dn42.
 ; fddf:3681:e80:230::1
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.2.0 IN PTR mail.x.dn42.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.2.0 IN PTR aws.justin.global.node.baka.dn42.
 ; fddf:3681:e80:231::1
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.3.2.0 IN PTR fra.ivan.global.node.baka.dn42.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.3.2.0 IN PTR mail.x.dn42.
 ; fddf:3681:e80:232::1
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.3.2.0 IN PTR aws.justin.global.node.baka.dn42.
 
