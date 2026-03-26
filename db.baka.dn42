@@ -42,7 +42,7 @@ bronya.customers             IN  AAAA fddf:3681:e80:249::1
 mei.customers                IN  A    172.20.154.250
 mei.customers                IN  AAAA fddf:3681:e80:250::1
 dreamseeker.customers        IN  A    172.20.154.251
-dreamseeker.customers        IN  AAAA fddf:3681:e80:253::1
+dreamseeker.customers        IN  AAAA fddf:3681:e80:251::1
 coralie.customers            IN  A    172.20.154.252
 coralie.customers            IN  AAAA fddf:3681:e80:252::1
 helia.customers              IN  A    172.20.154.253

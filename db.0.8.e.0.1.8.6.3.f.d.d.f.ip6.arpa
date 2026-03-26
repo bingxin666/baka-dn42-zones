@@ -52,7 +52,7 @@ $ORIGIN 0.8.e.0.1.8.6.3.f.d.d.f.ip6.arpa.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.9.4.2.0 IN PTR bronya.customers.baka.dn42.
 ; fddf:3681:e80:250::1
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.5.2.0 IN PTR mei.customers.baka.dn42.
-; fddf:3681:e80:251::1 (注意: 此处 baka.dn42 正向解析指向 fddf:3681:e80:253::1，可能需要修正)
+; fddf:3681:e80:251::1
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.5.2.0 IN PTR dreamseeker.customers.baka.dn42.
 ; fddf:3681:e80:252::1
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.5.2.0 IN PTR coralie.customers.baka.dn42.
