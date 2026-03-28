@@ -1,6 +1,7 @@
 $TTL 300
+$ORIGIN xxl.dn42.
 @           IN  SOA  anycast.baka.dn42. xiexilin.com. (
-                     2025120401 ; Serial
+                     2026032801 ; Serial
                      4H         ; Refresh
                      1H         ; Retry
                      7D         ; Expire

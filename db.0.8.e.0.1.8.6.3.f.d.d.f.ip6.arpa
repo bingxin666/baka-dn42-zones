@@ -6,7 +6,7 @@ $TTL 300
 $ORIGIN 0.8.e.0.1.8.6.3.f.d.d.f.ip6.arpa.
 
 @ IN SOA anycast.baka.dn42. bingxin.baka.pub. (
-    2026032802 ; Serial
+    2026032803 ; Serial
     7200       ; Refresh
     3600       ; Retry
     1209600    ; Expire
@@ -67,6 +67,7 @@ $ORIGIN 0.8.e.0.1.8.6.3.f.d.d.f.ip6.arpa.
 ; fddf:3681:e80:300:: and fddf:3681:e80:233::2
 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.f.0 IN PTR shanghai.ixvm.baka.dn42.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.3.2.0 IN PTR shanghai.ixvm.baka.dn42.
+
 ; ---- fun routes ----
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.f.0 IN PTR were.no.strangers.to.love.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.f.0 IN PTR you.know.the.rules.and.so.do.i.
