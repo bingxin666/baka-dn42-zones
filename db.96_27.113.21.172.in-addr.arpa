@@ -2,7 +2,7 @@ $TTL 300
 $ORIGIN 96/27.113.21.172.in-addr.arpa.
 
 @ IN SOA anycast.baka.dn42. xiexilin.com. (
-    2026032801 ; Serial
+    2026032802 ; Serial
     7200       ; Refresh
     3600       ; Retry
     1209600    ; Expire
@@ -10,5 +10,5 @@ $ORIGIN 96/27.113.21.172.in-addr.arpa.
 )
 
 ; ---- nodes ----
-97  IN  PTR  hkg.nodes.xxl.dn42
-121 IN  PTR  can.nodes.xxl.dn42
+97  IN  PTR  hkg.nodes.xxl.dn42.
+121 IN  PTR  can.nodes.xxl.dn42.
