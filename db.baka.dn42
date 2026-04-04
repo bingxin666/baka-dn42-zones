@@ -52,11 +52,11 @@ senadina.customers           IN  AAAA fddf:3681:e80:254::1
 elysia.customers             IN  A    172.20.154.255
 elysia.customers             IN  AAAA fddf:3681:e80:255::1
 
-radio          IN  CNAME  hkg.alice.global.node.baka.dn42
+radio          IN  CNAME  hkg.alice.global.node
 rpki           IN  A    172.20.154.225
-yacy           IN  CNAME  aws.justin.global.node.baka.dn42
-search         IN  CNAME  aws.justin.global.node.baka.dn42
-speedtest      IN  CNAME  hkg.alice.global.node.baka.dn42
+yacy           IN  CNAME  aws.justin.global.node
+search         IN  CNAME  aws.justin.global.node
+speedtest      IN  CNAME  hkg.alice.global.node
 
 @              IN  A    172.20.154.227
 @              IN  AAAA fddf:3681:e80:227::1
