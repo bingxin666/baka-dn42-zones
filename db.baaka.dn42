@@ -10,4 +10,4 @@ $ORIGIN baaka.dn42.
 @              IN  NS   anycast.baka.dn42.
 @              IN  A    172.20.154.230
 @              IN  AAAA fddf:3681:e80:230::1
-www            IN  CNAME aws.justin.global.node.baka.dn42
+www            IN  CNAME aws.justin.global.node.baka.dn42.
