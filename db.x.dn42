@@ -1,7 +1,7 @@
 $TTL 300
 $ORIGIN x.dn42.
 @           IN  SOA  anycast.baka.dn42. xiexilin.com. (
-                     2026040604 ; Serial
+                     2026040605 ; Serial
                      4H         ; Refresh
                      1H         ; Retry
                      7D         ; Expire
@@ -21,4 +21,3 @@ mail            IN  TXT    v=spf1 mx ~all
 @               IN  TXT    v=spf1 mx ~all
 s20260322509._domainkey.x.dn42. IN TXT "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsqwEn8h7/VVHu9FOsi+hi2r5K4mncWXVBp+zNN9UFVYt+G29NTx0+V01xPB4KT0FtDBIEjydT1nGklZ1xQenTG5NzXA08qpbT3c8lDEBIukrT3+U7OYtIrQiF5JjigUbtNhzYyoPEoLUcXBU/gK0Vz+T0dp0lMMfRfH5xA6Ou9cW+kmPz/zlHGnI4WzyOrDmh/+5g7lJG8cPLaDX3Y9UEdwB930i53Rm+90PUZiNlRBWKjapIGHdGERkdtGTML6fAtt2pli8C3CoED/ZPEad+iWj6YTx45QjzddqPEO9Qj06XpXlDYQvdjEyCm2LzwaLyAo/knE2E70E2nwyKjMTpQIDAQAB"_dmarc      IN  TXT    v=DMARC1; p=quarantine; ruf=mailto:bingxin@x.dn42
 _dmarc          IN  TXT    v=DMARC1; p=none; rua=mailto:dmarc@x.dn42
-test IN CNAME anycast.baka.dn42
