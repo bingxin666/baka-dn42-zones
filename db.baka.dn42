@@ -1,7 +1,7 @@
 $TTL 300
 $ORIGIN baka.dn42.
 @           IN  SOA  anycast.baka.dn42. bingxin.baka.pub. (
-                     2026040403 ; Serial
+                     2026040901 ; Serial
                      1H         ; Refresh
                      1H         ; Retry
                      7D         ; Expire
@@ -52,7 +52,7 @@ senadina.customers           IN  AAAA fddf:3681:e80:254::1
 elysia.customers             IN  A    172.20.154.255
 elysia.customers             IN  AAAA fddf:3681:e80:255::1
 
-radio          IN  CNAME  hkg.alice.global.node
+radio          IN  CNAME  aws.justin.global.node
 rpki           IN  A    172.20.154.225
 yacy           IN  CNAME  aws.justin.global.node
 search         IN  CNAME  aws.justin.global.node
