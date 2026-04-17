@@ -24,9 +24,8 @@ $ORIGIN 224/27.154.20.172.in-addr.arpa.
 
 ; ---- china nodes ----
 233 IN PTR guangzhou.zoe.china.node.baka.dn42.
-234 IN PTR chengdu.walter.china.node.baka.dn42.
-235 IN PTR shanghai.trudy.china.node.baka.dn42.
-236 IN PTR guangzhou.trent.china.node.baka.dn42.
+234 IN PTR shanghai.trudy.china.node.baka.dn42.
+235 IN PTR guangzhou.trent.china.node.baka.dn42.
 
 ; ---- customers ----
 248 IN PTR kiana.customers.baka.dn42.
