@@ -28,12 +28,10 @@ aws.justin.global.node       IN  AAAA fddf:3681:e80:232::1
 
 guangzhou.zoe.china.node       IN  A    172.20.154.233
 guangzhou.zoe.china.node       IN  AAAA fddf:3681:e80:233::1
-chengdu.walter.china.node    IN  A    172.20.154.234
-chengdu.walter.china.node    IN  AAAA fddf:3681:e80:234::1
-shanghai.trudy.china.node    IN  A    172.20.154.235
-shanghai.trudy.china.node    IN  AAAA fddf:3681:e80:235::1
-guangzhou.trent.china.node   IN  A    172.20.154.236
-guangzhou.trent.china.node   IN  AAAA fddf:3681:e80:236::1
+shanghai.trudy.china.node    IN  A    172.20.154.234
+shanghai.trudy.china.node    IN  AAAA fddf:3681:e80:234::1
+guangzhou.trent.china.node   IN  A    172.20.154.235
+guangzhou.trent.china.node   IN  AAAA fddf:3681:e80:235::1
 
 kiana.customers              IN  A    172.20.154.248
 kiana.customers              IN  AAAA fddf:3681:e80:248::1
