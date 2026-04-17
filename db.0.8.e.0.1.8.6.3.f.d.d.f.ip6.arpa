@@ -38,12 +38,10 @@ $ORIGIN 0.8.e.0.1.8.6.3.f.d.d.f.ip6.arpa.
 ; ---- china nodes ----
 ; fddf:3681:e80:233::1
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.3.2.0 IN PTR guangzhou.zoe.china.node.baka.dn42.
-; fddf:3681:e80:234::1
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.3.2.0 IN PTR chengdu.walter.china.node.baka.dn42.
 ; fddf:3681:e80:235::1
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.5.3.2.0 IN PTR shanghai.trudy.china.node.baka.dn42.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.3.2.0 IN PTR shanghai.trudy.china.node.baka.dn42.
 ; fddf:3681:e80:236::1
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.6.3.2.0 IN PTR guangzhou.trent.china.node.baka.dn42.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.5.3.2.0 IN PTR guangzhou.trent.china.node.baka.dn42.
 
 ; ---- customers ----
 ; fddf:3681:e80:248::1
