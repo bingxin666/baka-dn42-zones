@@ -54,6 +54,7 @@ radio          IN  CNAME  aws.justin.global.node
 rpki           IN  A    172.20.154.225
 yacy           IN  CNAME  aws.justin.global.node
 search         IN  CNAME  aws.justin.global.node
+archive        IN  CNAME  aws.justin.global.node
 speedtest      IN  CNAME  hkg.alice.global.node
 
 @              IN  A    172.20.154.227
