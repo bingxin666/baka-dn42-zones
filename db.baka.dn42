@@ -1,7 +1,7 @@
 $TTL 300
 $ORIGIN baka.dn42.
 @           IN  SOA  anycast.baka.dn42. bingxin.baka.pub. (
-                     2026050901 ; Serial
+                     2026052501 ; Serial
                      1H         ; Refresh
                      1H         ; Retry
                      7D         ; Expire
@@ -56,6 +56,7 @@ yacy           IN  CNAME  aws.justin.global.node
 search         IN  CNAME  aws.justin.global.node
 archive        IN  CNAME  aws.justin.global.node
 speedtest      IN  CNAME  hkg.alice.global.node
+whois          IN  CNAME  hkg.alice.global.node
 
 @              IN  A    172.20.154.227
 @              IN  AAAA fddf:3681:e80:227::1
