@@ -1,7 +1,7 @@
 $TTL 300
 $ORIGIN baka.dn42.
 @           IN  SOA  anycast.baka.dn42. bingxin.baka.pub. (
-                     2026061501 ; Serial
+                     2026070401 ; Serial
                      1H         ; Refresh
                      1H         ; Retry
                      7D         ; Expire
@@ -67,6 +67,10 @@ dn42.whois             IN  A    172.20.154.245
 dn42.whois             IN  AAAA fddf:3681:e80:245::1
 bpdb.whois             IN  A    172.20.154.246
 bpdb.whois             IN  AAAA fddf:3681:e80:246::1
+
+rdap           IN  CNAME  hkg.alice.global.node
+dn42.rdap      IN  CNAME  hkg.alice.global.node
+bpdb.rdap      IN  CNAME  hkg.alice.global.node
 
 @              IN  A    172.20.154.227
 @              IN  AAAA fddf:3681:e80:227::1
